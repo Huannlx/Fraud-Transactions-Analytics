@@ -34,36 +34,36 @@ This project aims to provide comprehensive analyze Fraud Transaction from 2010â€
 
 ## MY SQL QUERIES WERE:
 
-1. How many fraud cases change over time? [Fraud_Query_1](SQL_Server\01_Fraud_cases_trend.sql)
-2. What time of day do most fraudulent transactions occur? [Fraud_Query_2](SQL_Server\02_Heatmap_hour_of_the_days.sql)
-3. Which merchant_id has the highest fraud rate? [Fraud_Query_3](SQL_Server\03_Fraud_rate_by_merchant.sql)
-4. Which merchant city has the highest fraud rate? [Fraud_Query_4](SQL_Server\04_Fraud_rate_by_merchant_city.sql)
-5. Which type of transaction has the highest fraud rate? [Fraud_Query_5](SQL_Server\05_Fraud_rate_by_chip_type.sql)
-6. Which product category has the most fraudulent transactions? [Fraud_Query_6](SQL_Server\06_Fraud_cases_by_category.sql)
-7. Which card brand has the highest fraud rate? [Fraud_Query_7](SQL_Server\07_Fraud_rate_by_card_brand.sql)
-8. What impact do chip cards have on fraudulent transactions? [Fraud_Query_8](SQL_Server\08_Fraud_rate_by_has_chip.sql)
-9. Which card number has the most fraudulent transactions? [Fraud_Query_9](SQL_Server\09_Fraud_cases_by_card_number.sql)
-10. Which gender has the most fraudulent transactions? [Fraud_Query_10](SQL_Server\10_Fraud_cases_by_gender.sql)
-11. How does the number of cards held relate to the number of fraudulent transactions? [Fraud_Query_11](SQL_Server\11_number_of_card_hold.sql)
-12. Which age group has the highest rate of fraudulent transactions? [Fraud_Query_12](SQL_Server\12_Fraud_cases_by_age_group.sql)
-13. Which credit score group has the highest rate of fraudulent transactions? [Fraud_Query_13](SQL_Server\13_Fraud_cases_by_credit_score.sql)
-14. Which Income group has the highest rate of fraudulent transactions? [Fraud_Query_14](SQL_Server\14_Fraud_cases_by_income_group.sql)
-15. Which Debt group has the highest rate of fraudulent transactions? [Fraud_Query_15](SQL_Server\15_Fraud_cases_by_debt_group.sql)
-16. What kind of clients profile is most at risk of fraud? [Fraud_Query_16](SQL_Server\16_Clients_Profile.sql)
+1. How many fraud cases change over time? [Fraud_Query_1](SQL_Server/01_Fraud_cases_trend.sql)
+2. What time of day do most fraudulent transactions occur? [Fraud_Query_2](SQL_Server/02_Heatmap_hour_of_the_days.sql)
+3. Which merchant_id has the highest fraud rate? [Fraud_Query_3](SQL_Server/03_Fraud_rate_by_merchant.sql)
+4. Which merchant city has the highest fraud rate? [Fraud_Query_4](SQL_Server/04_Fraud_rate_by_merchant_city.sql)
+5. Which type of transaction has the highest fraud rate? [Fraud_Query_5](SQL_Server/05_Fraud_rate_by_chip_type.sql)
+6. Which product category has the most fraudulent transactions? [Fraud_Query_6](SQL_Server/06_Fraud_cases_by_category.sql)
+7. Which card brand has the highest fraud rate? [Fraud_Query_7](SQL_Server/07_Fraud_rate_by_card_brand.sql)
+8. What impact do chip cards have on fraudulent transactions? [Fraud_Query_8](SQL_Server/08_Fraud_rate_by_has_chip.sql)
+9. Which card number has the most fraudulent transactions? [Fraud_Query_9](SQL_Server/09_Fraud_cases_by_card_number.sql)
+10. Which gender has the most fraudulent transactions? [Fraud_Query_10](SQL_Server/10_Fraud_cases_by_gender.sql)
+11. How does the number of cards held relate to the number of fraudulent transactions? [Fraud_Query_11](SQL_Server/11_number_of_card_hold.sql)
+12. Which age group has the highest rate of fraudulent transactions? [Fraud_Query_12](SQL_Server/12_Fraud_cases_by_age_group.sql)
+13. Which credit score group has the highest rate of fraudulent transactions? [Fraud_Query_13](SQL_Server/13_Fraud_cases_by_credit_score.sql)
+14. Which Income group has the highest rate of fraudulent transactions? [Fraud_Query_14](SQL_Server/14_Fraud_cases_by_income_group.sql)
+15. Which Debt group has the highest rate of fraudulent transactions? [Fraud_Query_15](SQL_Server/15_Fraud_cases_by_debt_group.sql)
+16. What kind of clients profile is most at risk of fraud? [Fraud_Query_16](SQL_Server/16_Clients_Profile.sql)
 
 ## POWER BI
 
-Model View: [MODEL_VIEW](PowerBI\Model_view.png)
+Model View: [MODEL_VIEW](PowerBI/06_Model_view.png)
 
-Dashboard 1: [Bank Fraud Overview](PowerBI\Bank_Fraud_Overview.png)
+Dashboard 1: [Bank Fraud Overview](PowerBI/01_Bank_Fraud_Overview.png)
 
-Dashboard 2: [Cards Fraud Detection](PowerBI\Cards_Fraud_Detection.png)
+Dashboard 2: [Cards Fraud Detection](PowerBI/02_Cards_Fraud_Detection.png)
 
-Dashboard 3: [Client Statistics](PowerBI\Client_Statistics.png)
+Dashboard 3: [Client Statistics](PowerBI/03_Client_Statistics.png)
 
-Dashboard 4: [Client Fraud Overview](PowerBI\Client_Fraud_Overview.png)
+Dashboard 4: [Client Fraud Overview](PowerBI/04_Client_Fraud_Overview.png)
 
-Dashboard 5: [Client Fraud Details](PowerBI\Client_Fraud_Details.png)
+Dashboard 5: [Client Fraud Details](PowerBI/05_Client_Fraud_Details.png)
 
 
 Follow the link report: [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDQwMWI2MjItN2EyOC00OTQ5LWEzNmItZWQ1MGYwZjQ5M2Q4IiwidCI6ImI3YmQ2YWM0LWUxYjYtNGJlZC1iNWI4LWUyMThiMGFmZTM5MSIsImMiOjF9&pageName=4935a0e300b472a04de0)
@@ -88,7 +88,8 @@ Dashboard delivers a comprehensive 360Â° analysis of credit card fraud across ba
 **MERCHANT:**
 
 - High-risk merchant categories include **Department Stores, Wholesale Clubs, and Discount Stores**, accounting for the bulk of cases (**Over 30%**).
-Geographic Hotspots: The city of **Rome (3061 Cases)**  and certain high-volume merchant IDs (**605669**) are identified as significant fraud hotspots.
+
+- **Geographic Hotspots:** The city of **Rome (3061 Cases)** and certain high-volume merchant IDs (**605669**) are identified as significant fraud hotspots.
 
 **CARDS:**
 
